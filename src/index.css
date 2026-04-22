@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Anton&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Anton", sans-serif;
+  
+  --color-brand: #EAB308; /* Yellow 500 */
+  --color-brand-dark: #CA8A04; /* Yellow 600 */
+}
+
+@layer base {
+  body {
+    @apply bg-zinc-950 text-zinc-100 antialiased;
+  }
+}
